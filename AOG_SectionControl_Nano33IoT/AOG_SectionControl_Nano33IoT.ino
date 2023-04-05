@@ -159,7 +159,8 @@ unsigned long timeout, timeout2;
 
 //libraries -------------------------------
 #include <WiFiNINA.h>
-#include <FlashAsEEPROM.h>
+//#include <FlashAsEEPROM.h>
+#include <FlashAsEEPROM_SAMD.h>
 #include <WiFiUdp.h>
 #include <WiFiServer.h>
 #include <WiFiClient.h>
